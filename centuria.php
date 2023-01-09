@@ -8,10 +8,10 @@ $d = sprintf("%.2f", $r);
 $d = explode(".", $d);
     if ($d[1]>0){
         $century = $d[0]+1;
-        echo $century;
+        return $century;
     } else{
         $century = $d[0];
-        echo $century;
+        return $century;
     }
 }
 ?>
